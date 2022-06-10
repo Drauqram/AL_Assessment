@@ -1,8 +1,8 @@
 Tools used:
-Linux Ubuntu 22.04 (LTS)    [old laptop not a virtual environment, had to install pip]
-VS Code
-Python3.10
-Pip
+Linux Ubuntu 22.04(LTS) (old laptop not a virtual environment, had to install pip),
+VS Code, 
+Python3.10, 
+Pip, 
 Docker
 
 Note:   I Did install all of the packages on a virtual environment.
