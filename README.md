@@ -1,15 +1,15 @@
 Tools used:
-    Linux Ubuntu 22.04 (LTS)    [old laptop not a virtual environment, had to install pip]
-    VS Code
-    Python3.10
-    Pip
-    Docker
+Linux Ubuntu 22.04 (LTS)    [old laptop not a virtual environment, had to install pip]
+VS Code
+Python3.10
+Pip
+Docker
 
 Note:   I Did install all of the packages on a virtual environment.
-        Make sure to activate the virtual env while at the project directory with the terminal command:    
-            source .virt_env/bin/activate
+Make sure to activate the virtual env while at the project directory with the terminal command:    
+source .virt_env/bin/activate
 
-Question 1:
+    Question 1:
     Noticed a Local variable within the body of the tester() function that was not initialised.
     Inserted the following code into the first line of the tester() function:
         global counter
@@ -18,7 +18,7 @@ Question 1:
     Result:
         Tester() function increments local variable of 3 with 1 to make the output of print(counter) 4.
 
-Question 2:
+    Question 2:
     Created a virtual environment by running the following in the terminal:
         python3 -m venv .virt_env
     Activated the virtual environment by running the following in the terminal:
@@ -32,7 +32,7 @@ Question 2:
     Result:
         1 failed, since inc(3) equals 4 and therefore inc(3) != 5
 
-Question 3:
+    Question 3:
     Installed requests on virtual environment
     Installed python-dotenv on virtual environment to handle environment variables through a .env file. (temporary, testing)
 
@@ -56,7 +56,7 @@ Question 3:
 
     Outputs from testing seemed to give appropriate results
 
-Question 4:
+    Question 4:
     Commented out the importing and usage of load and find functions for virtual environment env vars.
     Used the following set of commads in the terminal:
         sudo docker build -t <chosenname> .         -where <> contains a name of your preference.
@@ -65,8 +65,8 @@ Question 4:
     
     Output: website url, number of hits and correct units for datetime.timedelta values. (days, seconds, microseconds)
 
-Question 6:
+    Question 6:
     Create this README.md file with all my steps per question.
 
-Question 5:
+    Question 5:
     Create and Upload files to repository
